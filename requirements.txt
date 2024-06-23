@@ -1,0 +1,11 @@
+transformers
+datasets
+torch
+torchvision
+pandas
+opencv-python
+matplotlib
+flash_attn
+timm
+einops
+pytesseract
