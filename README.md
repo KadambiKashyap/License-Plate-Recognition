@@ -38,20 +38,20 @@ sudo apt-get install tesseract-ocr-ara      # Install Arabic language pack
 
 ### Usage
 
-1. Pre-processing and Data Analysis
-- Load detection and recognition annotations from CSV files.
-- Visualize sample images and bounding boxes to understand the data distribution.
+1. **Pre-processing and Data Analysis**:
+  - Load detection and recognition annotations from CSV files.
+  - Visualize sample images and bounding boxes to understand the data distribution.
   
-2. Data Exploration
-- Explore datasets to gain insights into the data.
-- Check for any inconsistencies or missing values in the annotations.
+2. **Data Exploration**:
+  - Explore datasets to gain insights into the data.
+  - Check for any inconsistencies or missing values in the annotations.
   
-3. Model Building
-- Convert data to COCO format for training.
-- Use transformers and datasets to prepare the processor and model.
-- Train the model with the prepared datasets.
-- Use PyTesseract for building and training deep learning models.
+3. **Model Building**:
+  - Convert data to COCO format for training.
+  - Use transformers and datasets to prepare the processor and model.
+  - Train the model with the prepared datasets.
+  - Use PyTesseract for building and training deep learning models.
   
-4. Evaluation
-- Evaluate the model's performance on test data.
-- Calculate and display the accuracy of the character recognition from the license plate.
+4. **Evaluation**:
+  - Evaluate the model's performance on test data.
+  - Calculate and display the accuracy of the character recognition from the license plate.
